@@ -6,10 +6,11 @@
     color: black;
 }
 
-.container{
-    display: grid;
-    grid-template-columns: repeat(12 1fr);
-
+.image-logo{
+    float:left;
+    margin-left: 50px;;
+    margin:0;
+    max-width: 35%;
 }
 
 .nav-bar{
@@ -36,62 +37,43 @@
     font-size: 1.3em;
 }
 
-.center{
+.start{
     margin:auto;
     width: 60%;
     padding: 10px;
+    text-align: center;
+}
+
+.start h1{
+    font-size: 2.3em;
 }
 
 .form-mail{
     margin: 2em;
     text-align: center;
-    
-}
-.form-mail button{
-    
-    display: block; 
-
+    align-items: center;   
 }
 
-.center h1{
-    font-size: 30px;
-    text-align: center;
+.form-mail input[type="email"]{
+    background-color: white;
+    height: 2em;
 }
 
-.center h2{
-    font-size: 20px;
-    text-align: center;
-}
-
-.center h3{
-    font-size: 15px;
-    text-align: center;
-}
-
-.center-button{
-    margin-top: 1em;
-    text-align: center;
-}
-
-button{
+.form-mail input[type="submit"]{
+    margin: 30px;
     border-radius: 5px;
-    background:rgb(227, 240, 53);
+    background:#f1c40f;
     border: 2px solid black;
     color: black;
     padding: 5px;
 }
-.button:active {
+
+.form-mail input[type="submit"]:active{
     transform: translateY(4px);
-  }
-
-
-
-.image-logo{
-    float:left;
-    margin-left: 50px;;
-    margin:0;
-    max-width: 35%;
 }
+
+
+
 
 .footer{
 }
