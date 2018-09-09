@@ -72,8 +72,31 @@
     transform: translateY(4px);
 }
 
+.charact{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+}
 
+.charact-div{
+    display: grid;
+    grid-template-columns: 1fr 7fr;    
+}
 
+.charact-img{
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    object-fit: contain;
+    width: 75px;
+    height: auto;
+    margin: 0 auto;
+}
 
-.footer{
+.charact-decr{
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 1em;
 }
