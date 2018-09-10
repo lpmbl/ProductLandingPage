@@ -16,7 +16,6 @@
 .nav-bar{
     clear: both;
     height: 75px;
-    border: red;
     position: fixed;
     z-index: 5;
 }
@@ -168,9 +167,31 @@
 footer{
     margin: 30px auto 0 auto;
     width: 70%;
-    background: red;
+    height: 50px;
+    background-color: rgb(185, 185, 185);
 }
 
-footer p{
+footer span{
     float: right;
+    background: rgb(185, 185, 185);
+    display:block;
+    clear: both;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); 
+}
+
+.footer-p{
+    display: block;
+    float: right;
+    position: relative;
+    top: 25%;
+    transform: translateY(-50%); 
+    display: inline;
+    background-color: rgb(185, 185, 185);
+}
+.footer-p a{
+    background-color: rgb(185, 185, 185);
+    padding-right: 25px;
+    text-decoration: none;
 }
