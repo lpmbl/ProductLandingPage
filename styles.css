@@ -17,18 +17,21 @@
     clear: both;
     height: 75px;
     border: red;
+    position: fixed;
+    z-index: 5;
 }
 
 .nav-ul{
     float: right;
 }
 
-.nav-ul li{
+.nav-ul a{
     display: inline;
     list-style-type: none;
     padding-right: 20px;
     line-height: 75px;
     height: 75px;
+    text-decoration: none;
 }
 
 .div-button{
@@ -57,6 +60,8 @@
 .form-mail input[type="email"]{
     background-color: white;
     height: 2em;
+    display: block;
+    margin: 0 auto;
 }
 
 .form-mail input[type="submit"]{
@@ -105,4 +110,67 @@
     margin-top:4em;
     display: flex;
     justify-content: center;
+}
+
+.products{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.product-unit{
+    margin-top: 50px;
+    border: 1px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.product-unit h2{
+    display:block;
+    background: #D1D1D1;
+    height: 2em;
+    padding: 0.5em;
+
+}
+
+.product-unit h1{
+    display:block;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.product-unit p{
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    line-height: 1.6;
+}
+
+.product-unit button{
+    border-radius: 5px;
+    background:#f1c40f;
+    border: 2px solid black;
+    width: 7em;
+    color: black;
+    padding: 5px;
+    font-size: 1.5em;
+    margin-bottom: 25px;
+}
+
+.product-unit button:active{
+    transform: translateY(4px);
+}
+
+footer{
+    margin: 30px auto 0 auto;
+    width: 70%;
+    background: red;
+}
+
+footer p{
+    float: right;
 }

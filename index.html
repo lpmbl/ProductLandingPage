@@ -13,9 +13,9 @@
         <img class="image-logo" src="https://s3.amazonaws.com/freecodecamp/original_trombones.png">
 
         <ul class="nav-ul">
-            <li class="div-button">Features</li>
-            <li class="div-button">How It Works</li>
-            <li class="div-button">Pricing</li>
+            <a href="#features" class="div-button">Features</a>
+            <a href="#how-it-works" class="div-button">How It Works</a>
+            <a href="#pricing" class="div-button">Pricing</a>
         </ul>
     </div>
 
@@ -23,57 +23,110 @@
     <div class="start">
         <h1>Handcrafted, home-made masterpieces</h1>
         <form class="form-mail">
-                <input type="email" size = "35" placeholder="Enter your email adress" required>
-                <br>
-                <input type="submit" value="GET STARTED">
+            <input type="email" size="35" placeholder="Enter your email adress" required>
+            <input type="submit" value="GET STARTED">
         </form>
     </div>
 
 
 
-    <div class="charact">
+    <div id="features" class="charact">
         <div class="charact-div">
             <div>
-                <img  class="charact-img" src="https://cdn.dribbble.com/users/76939/screenshots/758710/flame-icon_1x.png">
+                <img class="charact-img" src="https://cdn.dribbble.com/users/76939/screenshots/758710/flame-icon_1x.png">
             </div>
 
             <div class="charact-decr">
                 <h2>Premium Materials</h2>
-                <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
-            </div>            
+                <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of
+                    your purchase.</p>
+            </div>
         </div>
 
         <div class="charact-div">
             <div>
-                <img  class="charact-img" src="https://png.icons8.com/ios/1600/van.png">
+                <img class="charact-img" src="https://png.icons8.com/ios/1600/van.png">
             </div>
             <div class="charact-decr">
                 <h2>Fast Shipping</h2>
-                <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+                <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free
+                    returns if you are not satisfied.</p>
             </div>
         </div>
 
         <div class="charact-div">
             <div>
-                <img  class="charact-img" src="data:image/png;base64,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">
+                <img class="charact-img" src="data:image/png;base64,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">
             </div>
             <div class="charact-decr">
                 <h2>Quality Assurance</h2>
                 <p>
-                        For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.
+                    For every purchase you make, we will ensure there are no damages or faults and we will check and
+                    test the pitch of your instrument.
                 </p>
             </div>
         </div>
-        
+
     </div>
 
-    <div class ="video">
-        <object data="https://www.youtube.com/embed/y8Yv4pnO7qc"
-        width="560" height="315"></object>
+    <div id="how-it-works" class="video">
+        <object data="https://www.youtube.com/embed/y8Yv4pnO7qc" width="560" height="315"></object>
+    </div>
+
+    <div id="pricing" class="products">
+
+        <div class="product-unit">
+            <h2>Tenor Trombone </h2>
+            <h1>$600</h1>
+            <p>
+
+                Lorem ipsum.
+                Lorem ipsum.
+                Lorem ipsum dolor.
+                Lorem ipsum.
+
+            </p>
+
+            <button type="button">Select</button>
+        </div>
+
+        <div class="product-unit">
+            <h2>Bass Trombone  </h2>
+            <h1>$900</h1>
+            <p>
+
+                Lorem ipsum.
+                Lorem ipsum.
+                Lorem ipsum dolor.
+                Lorem ipsum.
+
+            </p>
+
+            <button type="button">Select</button>
+        </div>
+
+        <div class="product-unit">
+            <h2>Valve  Trombone </h2>
+            <h1>$1200</h1>
+            <p>
+
+                Lorem ipsum.
+                Lorem ipsum.
+                Lorem ipsum dolor.
+                Lorem ipsum.
+
+            </p>
+
+            <button type="button">Select</button>
+        </div>
+
+
     </div>
 
     <footer>
-
+        <p>
+            &copyCopyright 2016, Original Trombones
+        </p>
     </footer>
 </body>
 
